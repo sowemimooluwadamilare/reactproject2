@@ -1,0 +1,117 @@
+/* .Container{
+width: 90%;
+    margin: auto;
+    margin-top: 15rem;
+    background: linear-gradient(180deg, #F6F9FE 0%, rgba(246, 249, 254, 0) 100%);
+
+}
+.content{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+} */
+
+
+/* .Textside{
+  margin: auto;
+  align-items: center;
+  width: 50%;
+  
+}
+
+
+.Imageside{
+    margin-top: 2rem;
+width: 50%;
+}
+.Imageside img{
+    width: 100%;
+}
+.Textside h3{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27.7px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    
+
+}
+
+.Textside p{
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25.19px;
+    letter-spacing: 0.01em;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+   
+}
+
+.botton{
+    width: 246px;
+height: 60px;
+top: 1540px;
+left: 122px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+
+} */
+
+.Container {
+    width: 90%;
+    margin: auto;
+    margin-top: 15rem;
+    background: linear-gradient(180deg, #F6F9FE 0%, rgba(246, 249, 254, 0) 100%);
+  }
+  
+  .content {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .Textside {
+    margin: auto;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .Imageside {
+    margin-top: 2rem;
+    width: 50%;
+    position: relative;
+    overflow: hidden; /* Hide overflow outside the container */
+    border-radius: 15px; /* Rounded corners for a smoother look */
+  }
+  
+  .Imageside img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio while resizing */
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 75%);
+    transform: translateY(-25%); /* Adjust protruding part effect */
+  }
+  
+  .botton {
+    width: 246px;
+    height: 60px;
+    top: 1540px;
+    left: 122px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+  }
+  

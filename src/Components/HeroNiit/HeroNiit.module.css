@@ -1,0 +1,51 @@
+.Container{
+background-image: url(../../Assets/Niit\ pic/niitset.png);
+background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+}
+
+.Heroimg{
+    width: 46%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Herotext{
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.session1{
+    margin-bottom: 2rem;
+    
+}
+ .Herotext h2 {
+    font-family: Lato;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 38.09px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* width: 100%; */
+    
+ }
+
+ .Herotext p {
+    font-family: Lato;
+font-size: 26px;
+font-weight: 500;
+line-height: 33.6px;
+/* text-align: left; */
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+ }

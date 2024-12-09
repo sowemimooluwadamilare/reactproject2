@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+   background-image: url(../Assets/Niitpic/herosession.png);
+   background-size: cover;
+  background-repeat: no repeat;
+  /* height: 90vh; */
+  align-items: center;
+}
+.herotext {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 15rem;
+    margin-bottom: 8rem;
+  }
+  .herotext h2{
+font-family: Lato;
+font-size: 33px;
+font-weight: 700;
+line-height: 38.09px;
+text-align: left;
+
+  }
+
+  .herotext p{
+    font-family: Lato;
+font-size: 28px;
+font-weight: 500;
+line-height: 33.6px;
+text-align: left;
+
+
+  }
